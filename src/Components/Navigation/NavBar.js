@@ -24,21 +24,27 @@ export default function NavBar() {
                 <span className="navLink">HomePage</span>
                 <span className="navLink">Profile</span>
             </div>
-            <div className="navBarIcons"></div>
+            <div className="navBarIcons">
 
             <div className="navIcon">
             <PersonIcon/>
             <span className="iconTag">8</span>
             </div>
+
             <div className="navIcon">
             <MailIcon/>
             <span className="iconTag">5</span>
             </div>
+
             <div className="navIcon">
             <SettingsIcon/>
             <span className="iconTag">2</span>
             </div>
 
+            </div>
+            <div className="pic">
+                <img src="/images/ishara.jpg" alt="" className="profilePicImg" />
+            </div>
         </div>
 
       
