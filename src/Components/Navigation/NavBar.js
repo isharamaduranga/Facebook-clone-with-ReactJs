@@ -3,6 +3,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import MailIcon from '@mui/icons-material/Mail';
 import SettingsIcon from '@mui/icons-material/Settings';
+import "./navbar.css"
 
 export default function NavBar() {
   return (
@@ -43,7 +44,7 @@ export default function NavBar() {
 
             </div>
             <div className="pic">
-                <img src="/images/ishara.jpg" alt="" className="profilePicImg" />
+                <img src="/images/abc.jpg" alt="" className="profilePicImg" />
             </div>
         </div>
 

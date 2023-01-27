@@ -1,0 +1,35 @@
+.navBarBox{
+    height: 50px;
+    width: 100%;
+    background-color: #3b579d;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navBarLeft{
+    flex: 3;
+}
+
+.navBarCenter{
+    flex: 5;
+}
+
+.navBarRight{
+    flex: 4;
+}
+
+.profilePicImg{
+    width: 35px;
+    height: 35px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.logo{
+    font-size:38px ;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Segoe UI;
+}
