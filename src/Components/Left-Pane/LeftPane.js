@@ -72,6 +72,8 @@ export default function LeftPane() {
           <h3>Pages you recently viewed</h3>
         </div>
 
+        <div className='PageList'>
+
         <li className="pageListItem">
           <img src="\images\dream.jpg" alt="" className="pagePic" />
           <span className="PageName">Dream world</span>
@@ -106,6 +108,11 @@ export default function LeftPane() {
           <img src="\images\landscape-paradise.jpg" alt="" className="pagePic" />
           <span className="PageName">Landscapes Paradise</span>
         </li>
+
+
+        </div>
+
+        
 
 
 
