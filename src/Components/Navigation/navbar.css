@@ -1,5 +1,5 @@
 .navBarBox{
-    height: 50px;
+    height: 55px;
     width: 100%;
     background-color: #3b579d;
     display: flex;
@@ -8,7 +8,7 @@
     top: 0;
 }
 .navBarLeft{
-    flex: 3;
+    flex: 2;
 }
 
 .navBarCenter{
@@ -16,14 +16,39 @@
 }
 
 .navBarRight{
-    flex: 4;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    
 }
 
+.navBarIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.navIcon{
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.navBarLinks{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+}
+.navLink{
+    padding-left: 20px ;
+}
 .profilePicImg{
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     object-fit:cover;
     border-radius: 50%;
+    margin-left: 30px;
 }
 .logo{
     font-size:38px ;
@@ -32,4 +57,37 @@
     font-weight: 600;
     cursor: pointer;
     font-family: Segoe UI;
+}
+.searchBox{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.schIcon{
+    padding-left: 10px;
+}
+.schInput{
+    border: none;
+    width: 80%;
+}
+.schInput:focus{
+    outline: none;
+}
+.iconTag{
+    display: flex;
+    font-weight: bold;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-top: -30px;
 }

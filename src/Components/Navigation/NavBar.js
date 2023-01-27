@@ -16,7 +16,7 @@ export default function NavBar() {
         <div className="navBarCenter">
             <div className="searchBox">
                 <SearchIcon className='schIcon'/>
-                <input placeholder='Search for your fiends' className="schInput" />
+                <input placeholder='Search facebook' className="schInput" />
             </div>
         </div>
 
@@ -29,7 +29,7 @@ export default function NavBar() {
 
             <div className="navIcon">
             <PersonIcon/>
-            <span className="iconTag">8</span>
+            <span className="iconTag">7</span>
             </div>
 
             <div className="navIcon">
