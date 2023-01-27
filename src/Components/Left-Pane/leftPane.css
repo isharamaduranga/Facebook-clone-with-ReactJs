@@ -16,6 +16,10 @@
     align-items:center;
     margin-bottom: 20px;
 }
+.leftMenuText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
 
 .leftPainIcons{
     margin-right: 20px;
@@ -26,4 +30,28 @@
     height: 35px;
     border-radius: 50%;
     object-fit:cover;
+}
+
+.pagesOfwatched{
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgb(96, 100, 100);
+}
+.PageList{
+    padding: 0;
+    margin: 0;
+}
+
+.pageListItem{
+ display: flex;
+ align-items: center;
+ margin-bottom: 15px;
+ margin-top: 10px;   
+}
+
+.PageName{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
