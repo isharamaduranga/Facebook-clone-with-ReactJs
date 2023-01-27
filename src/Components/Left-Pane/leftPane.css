@@ -1,0 +1,22 @@
+.leftPane{
+    flex: 2;
+}
+
+.leftPainContainer{
+    padding: 20px;
+}
+.leftPainMenu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftPainMenuItem{
+    display: flex;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.leftPainIcons{
+    margin-right: 20px;
+}

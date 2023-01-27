@@ -3,6 +3,6 @@ import "./middlePane.css";
 
 export default function MiddlePane() {
   return (
-    <div>MiddlePane</div>
+    <div className='middlePane'>MiddlePane</div>
   )
 }
