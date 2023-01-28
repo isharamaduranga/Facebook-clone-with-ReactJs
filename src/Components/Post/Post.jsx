@@ -22,7 +22,15 @@ export default function Post() {
           </div>
 
           <div className="postBottom">
-
+            <div className="postBottomLeft">
+              <img src="/images/fb_png/like.png" alt="" className="reactionPic" />
+              <img src="/images/fb_png/love.png" alt="" className="reactionPic" />
+              <img src="/images/fb_png/care.png" alt="" className="reactionPic" />
+              <img src="/images/fb_png/haha.png" alt="" className="reactionPic" />
+              <img src="/images/fb_png/wow.png" alt="" className="reactionPic" />
+              <img src="/images/fb_png/sad.png" alt="" className="reactionPic" />
+              <img src="/images/fb_png/angry.png" alt="" className="reactionPic" />
+            </div>
           </div>
 
 
