@@ -19,27 +19,27 @@ export default function Display_Post() {
 
 
                 <div className="addPostOption">
-                <InsertPhotoIcon className='addPhoto'/>
+                <InsertPhotoIcon htmlColor='gold' className='addPhoto'/>
                 <span className="addPostOptionText">Add Image/Video</span>
                 </div>
 
                 <div className="addPostOption">
-                <AddLocationAltIcon className='addPhoto'/>
+                <AddLocationAltIcon htmlColor='limegreen' className='addPhoto'/>
                 <span className="addPostOptionText">Add Location</span>
                 </div>
 
                 <div className="addPostOption">
-                <StyleIcon className='addPhoto'/>
+                <StyleIcon htmlColor='#7F00FF' className='addPhoto'/>
                 <span className="addPostOptionText">Add Tag</span>
                 </div>
 
                 <div className="addPostOption">
-                <LiveTvIcon className='addPhoto'/>
+                <LiveTvIcon htmlColor='red' className='addPhoto'/>
                 <span className="addPostOptionText">Go live</span>
                 </div>
-
-
               </div>
+
+              <button className="postButton">Post</button>
 
             </div>
         </div>
