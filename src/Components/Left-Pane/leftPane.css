@@ -1,5 +1,17 @@
 .leftPane{
     flex: 2;
+    height: calc(100Vh - 50px);
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(224, 234, 241);
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(207, 205, 204);
 }
 
 .leftPainContainer{
@@ -47,7 +59,7 @@
  display: flex;
  align-items: center;
  margin-bottom: 15px;
- margin-top: 10px;   
+ margin-top: 20px;   
 }
 
 .PageName{
