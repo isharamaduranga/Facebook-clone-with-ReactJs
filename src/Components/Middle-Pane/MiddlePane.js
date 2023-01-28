@@ -8,6 +8,11 @@ export default function MiddlePane() {
     <div className='middlePane'>
     <Display_Post/>
     <Post/>
+    <Post/>
+    <Post/>
+    <Post/>
+    <Post/>
+    
     </div>
 
   )
