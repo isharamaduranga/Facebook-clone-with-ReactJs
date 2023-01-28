@@ -1,6 +1,6 @@
 {
   "name": "fb_clone",
-  "homepage":"https://isharamaduranga.github.io/Facebook-clone-with-ReactJs",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,8 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/isharamaduranga/Facebook-clone-with-ReactJs.git",
+    
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
