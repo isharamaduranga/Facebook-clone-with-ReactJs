@@ -7,7 +7,7 @@ export default function RightPane() {
       <div className="rightPaneContainer">
         <div className="addContainer">
           <span className="sponsered">Sponsered</span>
-          <img src="/images/advertis.jpg" alt="" className="adimg" />
+          <img src="./images/advertis.jpg" alt="" className="adimg" />
 
           <span className="adText">A Beach Resort is a full service holiday lodging facility, 
           located at the seaside, with access to a private beach. The beach being the primary focus for tourists.

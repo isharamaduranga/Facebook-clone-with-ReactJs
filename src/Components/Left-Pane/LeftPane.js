@@ -1,6 +1,5 @@
 import React from 'react';
 import "./leftPane.css";
-
 import MarkUnreadChatAltIcon from '@mui/icons-material/MarkUnreadChatAlt';
 import GroupIcon from '@mui/icons-material/Group';
 import RssFeedIcon from '@mui/icons-material/RssFeed';
@@ -76,7 +75,7 @@ export default function LeftPane() {
         <div className='PageList'>
 
         <li className="pageListItem">
-          <img src="./images/abc.jpg" alt="" className="pagePic" />
+          <img src="\images\dream.jpg" alt="" className="pagePic" />
           <span className="PageName">Dream world</span>
         </li>
 
