@@ -10,7 +10,7 @@ export default function Display_Post() {
     <div className='addPost'>
         <div className="addPostContainer">
             <div className="addPostTop">
-                <img src="/images/abc.jpg" alt="" className="addPostPic" />
+                <img src="./images/abc.jpg" alt="" className="addPostPic" />
                 <input placeholder='Whats in your mind..? ' className="addpostInput" />
             </div>
             <hr  className='hrLine'/>

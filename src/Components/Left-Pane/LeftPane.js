@@ -75,37 +75,37 @@ export default function LeftPane() {
         <div className='PageList'>
 
         <li className="pageListItem">
-          <img src="\images\dream.jpg" alt="" className="pagePic" />
+          <img src="./images/dream.jpg" alt="" className="pagePic" />
           <span className="PageName">Dream world</span>
         </li>
 
         <li className="pageListItem">
-          <img src="\images\music.jpg" alt="" className="pagePic" />
+          <img src="./images/music.jpg" alt="" className="pagePic" />
           <span className="PageName">Best Soul Music</span>
         </li>
 
         <li className="pageListItem">
-          <img src="\images\food.jpg" alt="" className="pagePic" />
+          <img src="./images/food.jpg" alt="" className="pagePic" />
           <span className="PageName">Asian Spicy foods</span>
         </li>
 
         <li className="pageListItem">
-          <img src="\images\hiking-adventure.jpg" alt="" className="pagePic" />
+          <img src="./images/hiking-adventure.jpg" alt="" className="pagePic" />
           <span className="PageName">Hiking Adventure</span>
         </li>
 
         <li className="pageListItem">
-          <img src="\images\nature_life.jpg" alt="" className="pagePic" />
+          <img src="./images/nature_life.jpg" alt="" className="pagePic" />
           <span className="PageName">Nature life</span>
         </li>
 
         <li className="pageListItem">
-          <img src="\images\sport-world.jpg" alt="" className="pagePic" />
+          <img src="./images/sport-world.jpg" alt="" className="pagePic" />
           <span className="PageName">Sports world</span>
         </li>
 
         <li className="pageListItem">
-          <img src="\images\landscape-paradise.jpg" alt="" className="pagePic" />
+          <img src="./images/landscape-paradise.jpg" alt="" className="pagePic" />
           <span className="PageName">Landscapes Paradise</span>
         </li>
 
